@@ -1,11 +1,12 @@
 language: node_js
 node_js:
   - 14.17.1
+
 script:
   - "npm run build"
   - "npm run test:nowatch"
 
-  deploy:
-    provider: heroku
-    api_key: $HEROKU_TOKEN
-    app: react-java-bookstore-client
+deploy:
+  provider: heroku
+  api_key: $HEROKU_TOKEN
+  app: react-java-bookstore-client
