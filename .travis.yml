@@ -11,5 +11,4 @@ deploy:
   api_key: $HEROKU_TOKEN
   app: react-java-bookstore-client
   on:
-    tags: true
     all_branches: true
