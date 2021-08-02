@@ -6,6 +6,6 @@ script:
   - "npm run test:nowatch"
 
   deploy:
-    provide: heroku
+    provider: heroku
     api_key: $HEROKU_TOKEN
     app: react-java-bookstore-client
