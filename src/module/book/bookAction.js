@@ -1,6 +1,6 @@
 import getBooksService from "./bookService";
 
-const getBooksAction = () => async (dispatch) => {
+export const getBooksAction = () => async (dispatch) => {
     try {
         const books = await getBooksService()
         dispatch({
@@ -11,5 +11,3 @@ const getBooksAction = () => async (dispatch) => {
         console.log(error);
     }
 }
-
-export default getBooksAction

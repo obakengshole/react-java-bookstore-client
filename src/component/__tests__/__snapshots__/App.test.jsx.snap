@@ -2,8 +2,49 @@
 
 exports[`App component should render app without error 1`] = `
 <DocumentFragment>
-  <div>
-    My first component updated
+  <div
+    class="MuiBox-root MuiBox-root-1"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-2"
+    >
+      <header
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+        posisiton="fixed"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-dense MuiToolbar-gutters"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+          >
+            Book Store
+          </h6>
+        </div>
+      </header>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-3"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-8 makeStyles-bookContainer-4"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-9 makeStyles-bookFilter-5"
+        >
+          <div
+            class="MuiPaper-root makeStyles-bookFilterPaper-6 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            Book Filter
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-10 makeStyles-bookList-7"
+        >
+          Display books here
+        </div>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;
