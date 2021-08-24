@@ -5,6 +5,7 @@ import styles from './BookStyles'
 import { useDispatch, useSelector } from 'react-redux'
 import { getBooksAction } from '../../module/book/bookAction'
 import { getBooksSelector } from '../../module/book/bookSelector'
+import BookList from './BookList'
 
 const BookContainer = () => {
     const dispatch = useDispatch() // will provide dispatch function through which we can dispatch our action
@@ -20,7 +21,7 @@ const BookContainer = () => {
         <Box className={classes.bookContainer}>
             <BookFilter />
             <Box className={classes.bookList}>
-                Display books here
+                <BookList books={books}/>
             </Box>
         </Box>
     )
