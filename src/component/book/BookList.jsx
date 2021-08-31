@@ -6,7 +6,7 @@ import BookListItem from './BookListItem'
 
 const propTypes = {
     books: PropTypes.arrayOf({
-        id: PropTypes.string.isRequired,
+        id: PropTypes.number.isRequired,
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
         releaseYear: PropTypes.number.isRequired
